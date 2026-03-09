@@ -1,19 +1,15 @@
 # API de Pedidos - Desafio Técnico
 
-Oi! Esse é meu projeto de API para gerenciar pedidos. Fiz usando Node.js com Express e MongoDB.
-
 ## Sobre
 
-Esse projeto foi feito como parte de um desafio técnico. A ideia é criar uma API que faz o CRUD completo de pedidos (criar, ler, atualizar e deletar).
+A ideia é criar uma API que faz o CRUD completo de pedidos (criar, ler, atualizar e deletar).
 
-Uma coisa legal que a API faz é transformar os nomes dos campos automaticamente - recebe em português e salva em inglês no banco.
-
-## Tecnologias que usei
+## Tecnologias
 
 - Node.js
 - Express
 - MongoDB com Mongoose
-- dotenv (pra variáveis de ambiente)
+- dotenv
 
 ## Estrutura das pastas
 
@@ -74,17 +70,10 @@ MONGODB_URI=mongodb+srv://usuario:senha@cluster.mongodb.net/orders_db
 
 ## Rodando o projeto
 
-Modo dev (reinicia sozinho quando salva):
-```bash
-npm run dev
-```
-
-Modo normal:
 ```bash
 npm start
 ```
-
-Aí é só acessar: http://localhost:3000
+e acessar: http://localhost:3000
 
 ## Rotas da API
 
@@ -195,5 +184,3 @@ Status que podem voltar:
 - 500 - erro no servidor
 
 ---
-
-Qualquer dúvida é só falar!
