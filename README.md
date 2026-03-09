@@ -1,7 +1,4 @@
 # API de Pedidos - Desafio Técnico
-
-## Sobre
-
 A ideia é criar uma API que faz o CRUD completo de pedidos (criar, ler, atualizar e deletar).
 
 ## Tecnologias
